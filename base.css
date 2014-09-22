@@ -1,0 +1,136 @@
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+	font-family: 'signika' , sans-serif;
+	text-decoration: none;
+}
+body {
+	//background-color: #C2C2C2;
+	background-color: #9DAF9E;
+}
+
+/* menu */
+#menu {
+	position: fixed;
+	height: 100%;
+	width: 225px;
+	background-color: #F9F8FA;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	z-index: 2;
+	background-image:url('white_fabric.png');
+}
+.menu_button {
+	//position: absolute;
+	width: 100%;
+	height:70px;
+	border-bottom:solid 1px #eee;
+	cursor:pointer;
+}
+.menu_button:hover {
+	background-color: #D1D0D2;
+}
+.menu_text {
+	font-size: 20px;
+	color:#0B273A;
+	padding-top: 25px;
+	margin-left: 50px;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+/* content */
+.page { 
+	position: fixed;
+	margin-left: 225px;
+	height:100%;
+	width: 100%;
+	overflow-y:scroll;
+}
+.inner_wrapper {
+	width: 100%;
+	overflow-x:hidden;
+}
+h1{
+	margin-left:100px;
+	margin-top: 20px;
+	color:white;
+	font-size: 150px;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 0 #eee;
+}
+h2 {
+	margin-left: 100px;
+	color:white;
+	font-size: 70px;
+	letter-spacing: 5px;
+}
+#welcome {
+	//background-color: #9DAF9E;
+	background-image:url('green.png');
+}
+#portfolio {
+	background-color: #FF4763;
+	background-image:url('black.png');
+}
+#about {
+	background-color: #0C8FFF;
+	background-image:url('blue.png');
+}
+
+
+
+
+
+
+
+/* welcome */
+#hey {
+}
+#imkfir {
+	width:800px;
+}
+#andim {
+	margin-top:150px;
+	//margin-bottom: 100px;
+	position: absolute;
+	bottom: 50px;
+}
+.iam_image {
+	margin-left:100px;
+	margin-top:10px;
+	height: 500px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+}
+#inner_wrapper_welcome {
+	background-image:url('green.png');
+}
+.welcome_content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#arrow {
+	position:fixed;
+	bottom: -40px;
+	left: 50%;
+	margin-left: 30px;
+	//border-top: 60px solid #fff;
+	//border-bottom: 60px solid transparent;
+	//border-left: 60px solid transparent;
+	//border-right: 60px solid transparent;
+	//opacity:.3;
+}
+#arrow_image {
+	width: 150px;
+	height: 150px;
+}
+
+/* Portfolio */
+#portfolio h2 {
+	margin-top:100px;
+}
+
+
+
